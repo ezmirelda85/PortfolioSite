@@ -1,0 +1,121 @@
+body {
+  font-family: Cabin, sans-serif;
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/learn-css-selectors-visual-rules/hypnotize_bg.png');
+}
+
+header {
+  padding: 20px 0;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  font-weight: 600;
+  margin: 0;
+}
+h5 {
+  font-weight: 600;
+  margin: 0;
+  text-align: left;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+a {
+  padding: 0 20px;
+  margin: 0;
+  color: #28B463
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('https://lh3.googleusercontent.com/OVdVwDD5OzZUskPWCpBeSnI6TWVDEbBCYE-fMyPvagy6pdAN-wht3vxXK8PsSscsTluhVIoEwuXMGeHF38kt9BUrORbjcdMIaCrkGV2AlaX9GohYRc6ENBKqBLUUPTLuwC_X4cspnX0MUo7K-1_kmCxv-E55bVAJISnytElpdIa2Z1NsXEJIJi7tBQ-9Td3kqmAyPlIYX1wYvelFX4tF6LCJdDotueU_Dhk9r-JSBpjEUbbZXi_aWm3X8C39NSjWmMLxRdY3KYSANanh4YYM2W6JWSlRvJ74bTp-Bkg2hI_n2Mlme-cC64OYTBAOFcn4PFDt8bv-dCw1WDTp-lsPsIS1Zoz4UwhJB_P1t5A421hXaXa4oix95jZOLArMcfUflnfLwGymrBW26vplpkAqdIaNEAnSFgx7Snv0H1Ir-dEkSg5r-dxIGSEnFwEBpWdP9QInftiiDC7Cp5d_jiqclRQPbv18HnvjN6WPXvvM-c77yoSikiSKSo0oThsVJOqbmx953qxmKDt1gMGX9tSTKCWu17sF7M2SIbqxOPHX5JRyPZwL9Rz8DBew4jVWulil9aUuvhzm5697t19qkjKVEgqyGYMXN0ftB5P1_MaIOCxtrgM1bQGqjSdhvNu9gLcjDmbTUQ7wObABM0pSaWXtj3XbeM-QyUe_lKzidVynBT4HkMOkUCbWlwA=s903-no');
+  background-size: cover;
+  color: #ffffff;
+  height: 400px;
+}
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 600;
+  margin: 0;
+  color: #000;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #000;
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #fbd1d5;
+  background-color: #ffffff;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #fbd1d5;
+}
+
+.btn-secondary {
+  background-color: #2a70e0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+
+.portrait {
+  width:  350px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.languages {
+  overflow: hidden;
+  max-width: 150px;
+  max-height: 125px;
+}
+
+figure img {
+  width: auto;
+  height: auto;
+}
+
+figure {
+  margin-bottom: 30px;
+}
+
+footer {
+  font-size: 18px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
