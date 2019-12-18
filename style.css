@@ -1,6 +1,6 @@
 body {
   font-family: Cabin, sans-serif;
-  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/learn-css-selectors-visual-rules/hypnotize_bg.png');
+  background-image: url('./images/whitewall.jpg');
 }
 
 header {
@@ -14,7 +14,7 @@ footer .row {
 }
 
 h1 {
-  font-weight: 600;
+  font-weight: 500;
   margin: 0;
 }
 h5 {
@@ -33,13 +33,17 @@ nav {
 a {
   padding: 0 20px;
   margin: 0;
-  color: #28B463
+  color: #FF6600
 }
 
+p {
+  color: #000000;
+  font-size: 15px;
+}
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('https://lh3.googleusercontent.com/I6yJdEqhF70Vg2fHYyalMvn2S7CA2O9PYKDPkWov4L8ZMM6VP8z-OQ9WVeRtPEjH4qIjGshYMhJdL-0en1j6b3WVlz2bTFCQVP4wLEsumvU8wY0A6_sPqouNNQWJPeqzbrBlqXlaUb_tDCHCDx9QjDO2V3D2ZY4MGIpnRurJS7NG7-qN25vzJsQdq3i_Cxo5f5Cy5geapjGhv7g8R_4C2fogUItG9m7me8UVEeezQEyPUswWx9G1D_6_QngXTgevZTjOJP3r2JcFJ2IEWCSuRIYu8gIWMyraRJKHb_-JAsM0_QTVL-l0kj2GgVzrrr1F9ieNAyiKrv1pIXtPfBhdrAc6W_7D-oiQtjqnZ4nc6mC6eZcE8cPew_u4LGeeTQ0aZaXu49VG0Qed9snmojewnR4XOuFZOou78ylFvRhwJVwTnV4UKRtkPYj5ICwMWOUNPv7DKyeF41-RPUuDB9psqwlzbply4iNoYJAOZvh25XyfTMifUHsv3EUn-Aum39dCqIfrLLWVghwDw9zOptJvB_rGoC_1E3nY7O8Nn0bMY8XF6L3QWpIqF3HO2YFkGF3i3coq3XTPX_Yt5LSpbCfI7Q3aQEy19zbNYDvZo-mxgF2KDJZ1lthW_ssw-mwjlW8Q7uUzcafXePAYzz-sgbloN_om2Z0VIatpYFQGBHAYARLvIGthGewDwSQ=w1420-h903-no');
+  background-image: url('./images/flowers-jumbotron.jpg');
   background-size: cover;
   color: #ffffff;
   height: 400px;
@@ -49,12 +53,12 @@ a {
   font-size: 60px;
   font-weight: 600;
   margin: 0;
-  color: #28B463;
+  color: #FF6600;
 }
 
 .jumbotron h3 {
-  margin: 0 0 20px;
-  color: #28B463;
+  margin: 0 0 40px;
+  color: #FFFFFF;
 }
 
 section .row img {
@@ -75,7 +79,7 @@ section .row img {
 }
 
 .btn.btn-primary:hover {
-  color: #ffffff;
+  color: #FF6600;
   background-color: #fbd1d5;
 }
 
@@ -109,6 +113,7 @@ figure {
 footer {
   font-size: 18px;
   padding: 20px 0;
+  color: #FF6600;
 }
 
 footer .col-sm-8 {
