@@ -4,7 +4,7 @@ body {
 }
 
 header {
-  padding: 20px 0;
+  padding: 15px 0;
 }
 
 header .row,
@@ -17,6 +17,7 @@ h1 {
   font-weight: 500;
   margin: 0;
 }
+
 h5 {
   font-weight: 600;
   margin: 0;
@@ -28,6 +29,7 @@ nav {
   justify-content: flex-end;
   font-size: 20px;
   font-weight: 400;
+  color: #FF6600;
 }
 
 a {
@@ -39,6 +41,18 @@ a {
 p {
   color: #000000;
   font-size: 15px;
+}
+.banner {
+  display: flex;
+  align-items: center;
+  color: #FF6600;
+  height: 100px; 
+}
+.banner h2 {
+   font-size: 40px;
+  font-weight: 400;
+  margin: 0;
+  color: #FF6600; 
 }
 .jumbotron {
   display: flex;
