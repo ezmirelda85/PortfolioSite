@@ -1,6 +1,6 @@
 body {
   font-family: Cabin, sans-serif;
-  background-image: url('./images/whitewall.jpg');
+  background-image: url('./images/whiterwall.jpg');
 }
 
 header {
@@ -33,7 +33,7 @@ nav {
 a {
   padding: 0 20px;
   margin: 0;
-  color: #FF6600
+  color: #FF6600;
 }
 
 p {
@@ -43,7 +43,7 @@ p {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('./images/flowers-jumbotron.jpg');
+  background-image: url('./images/flowers-jumbotron-mod.jpg');
   background-size: cover;
   color: #ffffff;
   height: 400px;
