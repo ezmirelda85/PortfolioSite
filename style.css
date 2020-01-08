@@ -20,8 +20,8 @@ h1 {
 
 h5 {
   font-weight: 600;
-  margin: 0;
-  text-align: left;
+  margin: 20;
+  text-align: center;
 }
 
 nav {
@@ -76,7 +76,7 @@ p {
 }
 
 section .row img {
-  margin: 0 0 60px;
+  margin: 30px 0 0;
   width: 100%;
   overflow: hidden;
 }
@@ -84,7 +84,9 @@ section .row img {
 .col-md-6 {
   margin: 0 0 30px;
 }
-
+.col-2 {
+  margin: 0 0 30px;
+}
 .btn.btn-primary {
   border-radius: 2px;
   border: 0px;
