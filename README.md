@@ -1,4 +1,5 @@
 # Janel Beckley, Ph.D. porfolio page
+Basic html/css static pages developed as the beginning of a portfolio
 
 ## Home
 Basic info about Janel Beckley
