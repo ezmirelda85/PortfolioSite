@@ -8,7 +8,7 @@ Basic info about Janel Beckley
 More detailed information about Janel, including motivation.
 
 ## Education
-All schools Janel graduate from (HS, BA, MS, PhD)
+All schools that Janel graduated from (HS, BA, MS, PhD)
 
 ## Experience
 Programing and software development experience
