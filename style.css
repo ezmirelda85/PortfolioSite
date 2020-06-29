@@ -10,7 +10,7 @@ header {
 header .row,
 footer .row {
   display: flex;
-  align-items: center;
+  align-items: normal;
 }
 
 h1 {
@@ -40,7 +40,7 @@ a {
 
 p {
   color: #000000;
-  font-size: 15px;
+  font-size: 16px;
 }
 .banner {
   display: flex;
@@ -76,16 +76,16 @@ p {
 }
 
 section .row img {
-  margin: 30px 0 0;
-  width: 100%;
+  margin: 20px 0 0;
+  width: 75%;
   overflow: hidden;
 }
 
 .col-md-6 {
-  margin: 0 0 30px;
+  margin: 0 0 10px;
 }
 .col-2 {
-  margin: 0 0 30px;
+  margin: 0 0 10px;
 }
 .btn.btn-primary {
   border-radius: 2px;
