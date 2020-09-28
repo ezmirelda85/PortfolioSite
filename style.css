@@ -29,13 +29,13 @@ nav {
   justify-content: flex-end;
   font-size: 20px;
   font-weight: 400;
-  color: #FF6600;
+  color: #00b4ff;
 }
 
 a {
   padding: 0 20px;
   margin: 0;
-  color: #FF6600;
+  color: #00b4ff;
 }
 
 p {
@@ -49,14 +49,14 @@ p {
 .banner {
   display: flex;
   align-items: center;
-  color: #FF6600;
+  color: #00b4ff;
   height: 100px; 
 }
 .banner h2 {
    font-size: 40px;
   font-weight: 400;
   margin: 0;
-  color: #FF6600; 
+  color: #00b4ff; 
 }
 .jumbotron {
   display: flex;
@@ -71,7 +71,7 @@ p {
   font-size: 60px;
   font-weight: 600;
   margin: 0;
-  color: #FF6600;
+  color: #FFd400;
 }
 
 .jumbotron h3 {
@@ -133,7 +133,7 @@ figure {
 footer {
   font-size: 18px;
   padding: 20px 0;
-  color: #FF6600;
+  color: #FFd400;
 }
 
 footer .col-sm-8 {
@@ -143,4 +143,7 @@ footer .col-sm-8 {
 
 footer ul {
   list-style: none;
+}
+li {
+  display: inline;
 }
